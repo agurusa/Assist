@@ -1,2 +1,2 @@
 # assist
-A device designed to assist you
+A device designed to assist you!
