@@ -1,0 +1,8 @@
+prefix=/home/aarthi/assist_4/devel
+
+Name: neato_node
+Description: Description of neato_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aarthi/assist_4/devel/lib 
+Requires: 

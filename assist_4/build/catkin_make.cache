@@ -1,0 +1,2 @@
+neato_node
+-DCATKIN_DEVEL_PREFIX=/home/aarthi/assist_4/devel -DCMAKE_INSTALL_PREFIX=/home/aarthi/assist_4/install -G Unix Makefiles
