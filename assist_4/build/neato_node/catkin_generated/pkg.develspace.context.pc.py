@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "neato_node"
-PROJECT_SPACE_DIR = "/home/aarthi/assist_4/devel"
+PROJECT_SPACE_DIR = "/home/aarthi/Assist/assist_4/devel"
 PROJECT_VERSION = "0.0.0"

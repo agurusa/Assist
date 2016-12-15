@@ -1,0 +1,8 @@
+prefix=/home/aarthi/Assist/assist_4/install
+
+Name: rosserial_client
+Description: Description of rosserial_client
+Version: 0.7.5
+Cflags: 
+Libs: -L/home/aarthi/Assist/assist_4/install/lib 
+Requires: 

@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include "std_msgs/String.h"
 #include <iostream>
+#include <boost/asio.hpp> 
+#include <boost/asio/serial_port.hpp">
+#include <boost/bind.hpp>
+#include <boost/integer.hpp>
+using namespace boost;
+using namespace boost::asio;
 using namespace std;
 
 // class NeatoNode{
@@ -19,6 +25,31 @@ void chatterCallback(const std_msgs::String::ConstPtr& msg){
 };
 
 int main(int argc, char **argv){
+
+	//is this a thing?!
+	// std::string serialDev = "/dev/ttyACM0";
+	// boost::asio::io_service io;
+	// boost::asio::serial_port serial(io, serialDev);
+	// write( serial, boost::asio::buffer(GetVersion));
+	// sleep(1);
+	// string ver = "";
+	// char c = 0;
+	// bool reading = true;
+	// while(reading){
+	// 	asio::read(serial,asio::buffer(&c,1));
+	// 	switch(c){
+	// 		case '\0':
+	// 		asio::read(serial,asio::buffer(&c,1));
+	// 		reading = false;
+	// 		break;
+	// 	default:
+	// 		ver+=c;
+	// 	}
+	// }
+	// cout << "version: " <<ver << endl;
+	// return 0
+	//up till here.
+
 	//initialize new instance of ros node and name it neato
 	ros::init(argc, argv, "neato");
 	// start node
@@ -40,4 +71,7 @@ int main(int argc, char **argv){
 	ros::spin();
 	return 0;
 
-}
+};
+
+// define robot port
+

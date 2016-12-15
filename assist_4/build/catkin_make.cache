@@ -1,2 +1,2 @@
-neato_node
--DCATKIN_DEVEL_PREFIX=/home/aarthi/assist_4/devel -DCMAKE_INSTALL_PREFIX=/home/aarthi/assist_4/install -G Unix Makefiles
+neato_node:rosserial/rosserial:rosserial/rosserial_arduino:rosserial/rosserial_client:rosserial/rosserial_embeddedlinux:rosserial/rosserial_mbed:rosserial/rosserial_msgs:rosserial/rosserial_python:rosserial/rosserial_server:rosserial/rosserial_test:rosserial/rosserial_tivac:rosserial/rosserial_windows:rosserial/rosserial_xbee
+-DCATKIN_DEVEL_PREFIX=/home/aarthi/Assist/assist_4/devel -DCMAKE_INSTALL_PREFIX=/home/aarthi/Assist/assist_4/install -G Unix Makefiles
