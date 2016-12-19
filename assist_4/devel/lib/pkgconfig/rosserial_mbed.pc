@@ -1,0 +1,8 @@
+prefix=/home/aarthi/Assist/assist_4/devel
+
+Name: rosserial_mbed
+Description: Description of rosserial_mbed
+Version: 0.7.5
+Cflags: -I/home/aarthi/Assist/assist_4/devel/include
+Libs: -L/home/aarthi/Assist/assist_4/devel/lib 
+Requires: message_runtime

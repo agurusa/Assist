@@ -1,0 +1,8 @@
+prefix=/home/aarthi/Assist/assist_4/install
+
+Name: rosserial_server
+Description: Description of rosserial_server
+Version: 0.7.5
+Cflags: -I/home/aarthi/Assist/assist_4/install/include
+Libs: -L/home/aarthi/Assist/assist_4/install/lib 
+Requires: roscpp rosserial_msgs topic_tools

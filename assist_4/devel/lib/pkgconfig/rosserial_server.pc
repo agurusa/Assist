@@ -1,0 +1,8 @@
+prefix=/home/aarthi/Assist/assist_4/devel
+
+Name: rosserial_server
+Description: Description of rosserial_server
+Version: 0.7.5
+Cflags: -I/home/aarthi/Assist/assist_4/src/rosserial/rosserial_server/include
+Libs: -L/home/aarthi/Assist/assist_4/devel/lib 
+Requires: roscpp rosserial_msgs topic_tools
