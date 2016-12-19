@@ -3,7 +3,7 @@
 #include "std_msgs/String.h"
 #include <iostream>
 #include <boost/asio.hpp> 
-#include <boost/asio/serial_port.hpp">
+// #include <boost/asio/serial_port.hpp">
 #include <boost/bind.hpp>
 #include <boost/integer.hpp>
 using namespace boost;
@@ -27,10 +27,12 @@ void chatterCallback(const std_msgs::String::ConstPtr& msg){
 int main(int argc, char **argv){
 
 	//is this a thing?!
-	// std::string serialDev = "/dev/ttyACM0";
-	// boost::asio::io_service io;
-	// boost::asio::serial_port serial(io, serialDev);
-	// write( serial, boost::asio::buffer(GetVersion));
+	boost::asio::io_service io;
+	std::string serialDev = "/dev/ttyACM0";
+	std::string command = "GetVersion";
+	boost::asio::serial_port serial(io, serialDev);
+	write( serial, boost::asio::buffer(command));
+	cout << "I did it";
 	// sleep(1);
 	// string ver = "";
 	// char c = 0;
