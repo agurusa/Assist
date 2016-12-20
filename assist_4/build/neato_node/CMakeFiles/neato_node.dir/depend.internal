@@ -3,6 +3,7 @@
 
 neato_node/CMakeFiles/neato_node.dir/neato.cpp.o
  /home/aarthi/Assist/assist_4/src/neato_node/neato.cpp
+ /home/aarthi/Assist/assist_4/src/neato_node/serial.cpp
  /opt/ros/kinetic/include/XmlRpcDecl.h
  /opt/ros/kinetic/include/XmlRpcValue.h
  /opt/ros/kinetic/include/ros/advertise_options.h
