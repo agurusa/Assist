@@ -187,10 +187,10 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-##create the executable called neato_node and direct ROS to its source files
-add_executable(neato_node neato.cpp)
+##create the executable called listener and direct ROS to its source files
+add_executable(listener listener.cpp)
 ##specify what libraries will be used
-target_link_libraries(neato_node ${catkin_LIBRARIES})
+target_link_libraries(listener ${catkin_LIBRARIES})
 
 add_executable(talker talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
