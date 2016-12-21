@@ -5,6 +5,8 @@
 #include <iostream>
 using namespace std;
 
+// ros publisher
+
 int main(int argc, char **argv){
 	ros::init(argc, argv, "talker");
 	ros::NodeHandle nh;
@@ -24,3 +26,6 @@ int main(int argc, char **argv){
 	}
 	return 0;
 }
+
+// laptop (publisher)--> raspberry pi (subscriber) --> neato (serial port)
+// neato (serial port) --> raspberry pi (publisher) --> laptop (subscriber)
