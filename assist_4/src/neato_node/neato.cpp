@@ -35,8 +35,7 @@ int main(int argc, char **argv){
 	string serialDev ("/dev/ttyACM0");
 	string getVersion = "getVersion\n";
 	string turnOnTestmode = "Testmode on\n";
-	string command = "Setmotor 300 -300 300\n";
-	printf("did i?");
+	string command = "Setmotor -300 300 300\n";
 	// std::string output = "";
 	// // boost::asio::serial_port serial(io, serialDev);
 	SimpleSerial serial(serialDev, 115200);
@@ -47,31 +46,7 @@ int main(int argc, char **argv){
 	sleep(2);
 	serial.writeString(command);
 	sleep(2);
-	// cout << "did it.";
-	// std::cout << "Testmode turned on";
-	// serial.writeString(command);
-	// std::cout << "Command sent.";
-	// cout<<serial.readLine()<<endl;
-	// output += write( serial, boost::asio::buffer(command));
-	// cout << output;
-	// sleep(1);
-	// string ver = "";
-	// char c = 0;
-	// bool reading = true;
-	// while(reading){
-	// 	asio::read(serial,asio::buffer(&c,1));
-	// 	switch(c){
-	// 		case '\0':
-	// 		asio::read(serial,asio::buffer(&c,1));
-	// 		reading = false;
-	// 		break;
-	// 	default:
-	// 		ver+=c;
-	// 	}
-	// }
-	// cout << "version: " <<ver << endl;
 	return 0;
-	//up till here.
 
 	//initialize new instance of ros node and name it neato
 	// ros::init(argc, argv, "neato");
